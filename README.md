@@ -10,6 +10,7 @@
 | No. | Questions                                                                                                                                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 |1.   | [What are the different data types present in javascript ?](#what-are-the-different-data-types-present-in-javascript-?)|
+|2.   | [What is the difference between Undefined & Null ?](#what-is-the-difference-between-Undefined-&-Null-?)
 
 1. ### What are the different data types present in javascript ?
       **Primitive types**
@@ -40,3 +41,5 @@ NULL Example
 var demo = null;
 alert(demo); //shows null
 alert(typeof demo); //shows object ```
+
+**[⬆ Back to Top](#table-of-contents)**
