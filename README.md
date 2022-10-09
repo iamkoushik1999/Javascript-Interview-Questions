@@ -24,7 +24,7 @@
     
 **[⬆ Back to Top](#table-of-contents)**
 
-2. What is the difference between Undefined & Null?
+2. ### What is the difference between Undefined & Null?
 
 | Undefined | NULL |
 | ----------- | ------- |
