@@ -72,3 +72,14 @@ x === y; // Returns false since the typeof x is "number" and typeof y is "string
 ```
 
 **[⬆ Back to Top](#table-of-contents)**
+
+4. ### Difference between var and let and const keyword in javascript.
+
+| var                                                                            | let                                                                            | const                                                                                          |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
+| The scope of a var variable is functional scope.                               | The scope of a let variable is block scope.                                    | The scope of a const variable is block scope.                                                  |
+| It can be updated and re-declared into the scope.                              | It can be updated but cannot be re-declared into the scope.                    | It cannot be updated or re-declared into the scope.                                            |
+| It can be declared without initialisation.                                     | It can be declared without initialisation.                                     | It cannot be declared without initialisation.                                                  |
+| It can be accessed without initialization as its default value is “undefined”. | It can be accessed without initialization as its default value is “undefined”. | It cannot be accessed without initialisation, as it cannot be declared without initialisation. |
+
+**[⬆ Back to Top](#table-of-contents)**
