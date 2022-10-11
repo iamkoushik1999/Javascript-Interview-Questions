@@ -83,3 +83,16 @@ x === y; // Returns false since the typeof x is "number" and typeof y is "string
 | It can be accessed without initialization as its default value is “undefined”. | It can be accessed without initialization as its default value is “undefined”. | It cannot be accessed without initialisation, as it cannot be declared without initialisation. |
 
 **[⬆ Back to Top](#table-of-contents)**
+
+5. ### What is the NaN property in JavaScript?
+
+> NaN property represents the “Not-a-Number” value. It indicates a value that is not a legal number.
+
+```javascript
+isNaN("Hello"); // Returns true
+isNaN(345); // Returns false
+isNaN("1"); // Returns false, since '1' is converted to Number type which results in 0 ( a number)
+isNaN(undefined); // Returns true
+```
+
+**[⬆ Back to Top](#table-of-contents)**
