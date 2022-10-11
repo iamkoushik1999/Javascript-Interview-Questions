@@ -96,3 +96,17 @@ isNaN(undefined); // Returns true
 ```
 
 **[⬆ Back to Top](#table-of-contents)**
+
+6. ### Explain “this” keyword.
+
+> The “this” keyword refers to the object that the function is a property of. The value of the “this” keyword will always depend on the object that is invoking the function.
+
+```javascript
+var obj = {
+  name: "Vivek",
+  getName: function () {
+    console.log(this.name);
+  },
+};
+obj.getName();
+```
