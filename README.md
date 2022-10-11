@@ -10,7 +10,8 @@
 | No. | Questions                                                                                                                                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 |1.   | [What are the different data types present in javascript ?](#what-are-the-different-data-types-present-in-javascript-?)|
-|2.   | [What is the difference between Undefined & Null ?](#what-is-the-difference-between-Undefined-&-Null-?)
+|2.   | [What is the difference between Undefined & Null ?](#what-is-the-difference-between-Undefined-&-Null-?)|
+|3.   | [Difference between “ == “ and “ === “ operators.](#difference-between-“==“-and-“===“-operators.)|
 
 1. ### What are the different data types present in javascript ?
       **Primitive types**
@@ -40,6 +41,25 @@ NULL Example
 ```javascript
 var demo = null;
 alert(demo); //shows null
-alert(typeof demo); //shows object ```
+alert(typeof demo); //shows object
+```
 
 **[⬆ Back to Top](#table-of-contents)**
+
+3. ### Difference between “ == “ and “ === “ operators.
+
+| == | === |
+|----|-----|
+|returns true if operands have the same data type and same value, returns false if the values differ.|returns true only if operands are of the same data type and same value, otherwise returns false|
+|Also known as loose equality|Also known as strict equality|
+
+== Example
+```javascript 
+var x = 2;
+(x == y)  // Returns true since the value of both x and y is the same 
+```
+=== Example
+```javascript 
+var y = "2";
+(x === y) // Returns false since the typeof x is "number" and typeof y is "string"
+```
