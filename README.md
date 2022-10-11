@@ -7,37 +7,41 @@
 </div>
 
 ### Table of Contents
-| No. | Questions                                                                                                                                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-|1.   | [What are the different data types present in javascript ?](#what-are-the-different-data-types-present-in-javascript-?)|
-|2.   | [What is the difference between Undefined & Null ?](#what-is-the-difference-between-Undefined-&-Null-?)|
-|3.   | [Difference between “ == “ and “ === “ operators.](#difference-between-“==“-and-“===“-operators.)|
+
+| No. | Questions                                                                                                               |
+| --- | ----------------------------------------------------------------------------------------------------------------------- |
+| 1.  | [What are the different data types present in javascript ?](#what-are-the-different-data-types-present-in-javascript-?) |
+| 2.  | [What is the difference between Undefined & Null ?](#what-is-the-difference-between-Undefined-&-Null-?)                 |
+| 3.  | [Difference between “ == “ and “ === “ operators.](#difference-between-“==“-and-“===“-operators.)                       |
 
 1. ### What are the different data types present in javascript ?
-      **Primitive types**
-     1. String
-     2. Number
-     3. Big Int
-     4. Boolean
-     5. Undefined
-     6. Null 
-     7. Symbol
-    
+   **Primitive types**
+   1. String
+   2. Number
+   3. Big Int
+   4. Boolean
+   5. Undefined
+   6. Null
+   7. Symbol
+
 **[⬆ Back to Top](#table-of-contents)**
 
 2. ### What is the difference between Undefined & Null?
 
-| Undefined | NULL |
-| ----------- | ------- |
+| Undefined                                                                      | NULL                                                      |
+| ------------------------------------------------------------------------------ | --------------------------------------------------------- |
 | The undefined property indicates that a variable has not been declared at all. | The value null represents the absence of any object value |
 
 Undefined Example
-```javascript 
+
+```javascript
 var demo;
 alert(demo); //shows undefined
-alert(type of demo); //shows undefined 
+alert(type of demo); //shows undefined
 ```
+
 NULL Example
+
 ```javascript
 var demo = null;
 alert(demo); //shows null
@@ -48,18 +52,23 @@ alert(typeof demo); //shows object
 
 3. ### Difference between “ == “ and “ === “ operators.
 
-| == | === |
-|----|-----|
-|returns true if operands have the same data type and same value, returns false if the values differ.|returns true only if operands are of the same data type and same value, otherwise returns false|
-|Also known as loose equality|Also known as strict equality|
+| ==                                                                                                   | ===                                                                                             |
+| ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| returns true if operands have the same data type and same value, returns false if the values differ. | returns true only if operands are of the same data type and same value, otherwise returns false |
+| Also known as loose equality                                                                         | Also known as strict equality                                                                   |
 
 == Example
-```javascript 
+
+```javascript
 var x = 2;
-(x == y)  // Returns true since the value of both x and y is the same 
+x == y; // Returns true since the value of both x and y is the same
 ```
+
 === Example
-```javascript 
+
+```javascript
 var y = "2";
-(x === y) // Returns false since the typeof x is "number" and typeof y is "string"
+x === y; // Returns false since the typeof x is "number" and typeof y is "string"
 ```
+
+**[⬆ Back to Top](#table-of-contents)**
