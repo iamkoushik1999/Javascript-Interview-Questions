@@ -111,6 +111,8 @@ var obj = {
 obj.getName();
 ```
 
+**[⬆ Back to Top](#table-of-contents)**
+
 7. ### Explain Hoisting in javascript.
 
 > JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, before execution of the code.
@@ -143,6 +145,8 @@ The result of the code above is: "My cat's name is Tiger"
 */
 ```
 
+**[⬆ Back to Top](#table-of-contents)**
+
 8. ### Explain Closures in JavaScript.
 
 > A closure is simply a function inside another function with access to the outer function variable.
@@ -151,11 +155,15 @@ The result of the code above is: "My cat's name is Tiger"
 
 <img src = "images/closures.png" alt = "closures image" >
 
+**[⬆ Back to Top](#table-of-contents)**
+
 9. ### What is callback?
 
 > In javascript, a callback is simply a function that is passed to another function as a parameter and is invoked or executed inside the other function.
 
 <img src = "images/callback.png" alt = "callback image" >
+
+**[⬆ Back to Top](#table-of-contents)**
 
 10. ### Explain Promise in Javascript.
 
@@ -173,3 +181,5 @@ We can consume any promise by attaching then() and catch() methods to the consum
 - catch() method is used to access the result/error when the promise is rejected. In the code below, we are consuming the promise:
 
 <img src = "images/promises.png" alt = "promises image" >
+
+**[⬆ Back to Top](#table-of-contents)**
