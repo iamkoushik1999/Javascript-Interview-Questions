@@ -142,3 +142,11 @@ function catName(name) {
 The result of the code above is: "My cat's name is Tiger"
 */
 ```
+
+8. ### Explain Closures in JavaScript.
+
+> A closure is simply a function inside another function with access to the outer function variable.
+
+> In other words, closure is created when a child function keeps the environment of the parent scope even after the parent function has already been executed
+
+<img src = "images/closures.png" alt = "closures image" >
