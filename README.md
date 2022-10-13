@@ -157,7 +157,7 @@ The result of the code above is: "My cat's name is Tiger"
 
 <img src = "images/callback.png" alt = "callback image" >
 
-9. ### Explain Promise in Javascript.
+10. ### Explain Promise in Javascript.
 
 > We understand the concept of callback but what will happen if your code will have callbacks within callbacks within callbacks and it goes on. Well, this recursive structure of callback is called ‘callback hell’ and promises to help to solve this kind of issue. Promises are useful in asynchronous javascript operations when we need to execute two or more back-to-back operations (or chaining callback), where each subsequent function starts when the previous one is completed. A promise is an object that may produce a single value sometime in the future, either a resolved value or a reason that it’s not resolved (rejected)
 
