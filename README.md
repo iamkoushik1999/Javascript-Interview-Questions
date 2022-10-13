@@ -150,3 +150,9 @@ The result of the code above is: "My cat's name is Tiger"
 > In other words, closure is created when a child function keeps the environment of the parent scope even after the parent function has already been executed
 
 <img src = "images/closures.png" alt = "closures image" >
+
+9. ### What is callback?
+
+> In javascript, a callback is simply a function that is passed to another function as a parameter and is invoked or executed inside the other function.
+
+<img src = "images/callback.png" alt = "callback image" >
