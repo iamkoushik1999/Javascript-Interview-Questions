@@ -110,3 +110,35 @@ var obj = {
 };
 obj.getName();
 ```
+
+7. ### Explain Hoisting in javascript.
+
+> JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, before execution of the code.
+
+> Hoisting allows functions to be safely used in code before they are declared.
+
+Without Hoisting
+
+```javascript
+function catName(name) {
+  console.log(`My cat's name is ${name}`);
+}
+
+catName("Tiger");
+/*
+The result of the code above is the same: "My cat's name is Tiger"
+*/
+```
+
+With Hoisting
+
+```javascript
+catName("Tiger");
+
+function catName(name) {
+  console.log(`My cat's name is ${name}`);
+}
+/*
+The result of the code above is: "My cat's name is Tiger"
+*/
+```
