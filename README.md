@@ -183,3 +183,15 @@ We can consume any promise by attaching then() and catch() methods to the consum
 <img src = "images/promises.png" alt = "promises image" >
 
 **[⬆ Back to Top](#table-of-contents)**
+
+11. ### Explain Async & Await in Javascript.
+
+> Stop and wait until something is resolved. Async & await just syntactic sugar on top of Promises and like promises it also provides a way to maintain asynchronous operation more synchronously. So in javascript asynchronous operations can be handled in various versions…
+
+- ES5 -> Callback
+- ES6 -> Promise
+- ES7 -> async & await
+
+> You can use Async/Await to perform the Rest API request where you want the data to fully load before pushing it to the view. For Nodejs and browser programmers async/await is a great syntactic improvement. It helps the developer to implement functional programming in javascript and it also increases the code readability.
+
+**[⬆ Back to Top](#table-of-contents)**
