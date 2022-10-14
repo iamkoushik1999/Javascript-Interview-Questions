@@ -195,3 +195,9 @@ We can consume any promise by attaching then() and catch() methods to the consum
 > You can use Async/Await to perform the Rest API request where you want the data to fully load before pushing it to the view. For Nodejs and browser programmers async/await is a great syntactic improvement. It helps the developer to implement functional programming in javascript and it also increases the code readability.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+12. ### What is recursion in a programming language?
+
+> Recursion is a technique to iterate over an operation by having a function call itself repeatedly until it arrives at a result.
+
+**[⬆ Back to Top](#table-of-contents)**
