@@ -201,3 +201,35 @@ We can consume any promise by attaching then() and catch() methods to the consum
 > Recursion is a technique to iterate over an operation by having a function call itself repeatedly until it arrives at a result.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+13. ### What is DOM?
+
+- DOM stands for Document Object Model. DOM is a programming interface for HTML and XML documents.
+- When the browser tries to render an HTML document, it creates an object based on the HTML document called DOM. Using this DOM, we can manipulate or change various elements inside the HTML document.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+14. ### What are arrow function?
+
+```javascript
+let myFunction = (a, b) => a * b;
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+15. ### Differences between declaring variables using var, let and const.
+
+| Keyword           | const | let | var |
+| ----------------- | ----- | --- | --- |
+| global scope      | no    | no  | yes |
+| function scope    | yes   | yes | yes |
+| block             | yes   | yes | no  |
+| can be reassigned | no    | yes | yes |
+
+**[⬆ Back to Top](#table-of-contents)**
+
+16. ### What is an Array?
+
+> An array is a collection of the same data type elements
+
+**[⬆ Back to Top](#table-of-contents)**
