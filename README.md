@@ -8,11 +8,24 @@
 
 ### Table of Contents
 
-| No. | Questions                                                                                                               |
-| --- | ----------------------------------------------------------------------------------------------------------------------- |
-| 1.  | [What are the different data types present in javascript ?](#what-are-the-different-data-types-present-in-javascript-?) |
-| 2.  | [What is the difference between Undefined & Null ?](#what-is-the-difference-between-Undefined-&-Null-?)                 |
-| 3.  | [Difference between “ == “ and “ === “ operators.](#difference-between-“==“-and-“===“-operators.)                       |
+| No. | Questions                                                                                                                             |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.  | [What are the different data types present in javascript ?](#what-are-the-different-data-types-present-in-javascript)                 |
+| 2.  | [What is the difference between Undefined & Null ?](#what-is-the-difference-between-undefined--null)                                  |
+| 3.  | [Difference between “ == “ and “ === “ operators.](#difference-between----and----operators)                                           |
+| 4.  | [Difference between var and let and const keyword in javascript.](#difference-between-var-and-let-and-const-keyword-in-javascript)    |
+| 5.  | [What is the NaN property in JavaScript?](#what-is-the-nan-property-in-javascript)                                                    |
+| 6.  | [Explain “this” keyword.](#explain-this-keyword)                                                                                      |
+| 7.  | [Explain Hoisting in javascript.](#explain-hoisting-in-javascript)                                                                    |
+| 8.  | [Explain Closures in JavaScript.](#explain-closures-in-javascript)                                                                    |
+| 9.  | [What is callback?](#what-is-callback)                                                                                                |
+| 10. | [Explain Promise in Javascript.](#explain-promise-in-javascript)                                                                      |
+| 11. | [Explain Async & Await in Javascript.](#explain-async--await-in-javascript)                                                           |
+| 12. | [What is recursion in a programming language?](#what-is-recursion-in-a-programming-language)                                          |
+| 13. | [What is DOM?](#what-is-dom)                                                                                                          |
+| 14. | [What are arrow function?](#what-are-arrow-function)                                                                                  |
+| 15. | [Differences between declaring variables using var, let and const.](#differences-between-declaring-variables-using-var-let-and-const) |
+| 16. | [What is an Array?](#what-is-an-array)                                                                                                |
 
 1. ### What are the different data types present in javascript ?
    **Primitive types**
