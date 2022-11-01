@@ -26,7 +26,8 @@
 | 14. | [What are arrow function?](#what-are-arrow-function)                                                                                  |
 | 15. | [Differences between declaring variables using var, let and const.](#differences-between-declaring-variables-using-var-let-and-const) |
 | 16. | [What is an Array?](#what-is-an-array)                                                                                                |
-| 17. | []()                                                                                                                                  |
+| 17. | [How to write Functions in JavaScript?](#how-to-write-functions-in-javascript)                                                        |
+| 18. | []()                                                                                                                                  |
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -249,3 +250,28 @@ let myFunction = (a, b) => a * b;
 > An array is a collection of the same data type elements
 
 **[⬆ Back to Top](#table-of-contents)**
+
+17. ### How to write Functions in JavaScript?
+
+> There are 4 ways to write Functions in JavaScript
+
+```javascript
+// Function Declaration
+function square(x) {
+  return x * x;
+}
+
+// Function Expression
+const square = function(x) {
+  return x * x;
+}
+
+// Arrow Function Expression
+function square =(x)=> {
+  return x * x;
+}
+
+// Concise Arrow Function Expression
+function square = x => x * x;
+
+```
