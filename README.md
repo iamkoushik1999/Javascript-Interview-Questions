@@ -65,6 +65,16 @@ alert(demo); //shows null
 alert(typeof demo); //shows object
 ```
 
+> When to use null object?
+
+- When you have declared an object and want it to be empty initialise it with null.
+
+> Can we assign undefined to variable?
+
+- You can assign undefined to any variable but generally its not recommended.
+
+> So the summary is undefined is #javascript way of saying that you forgot to initialize something or it is not existent (assigned by js) and null is user way of saying that I have initialized and want the variable to be non existent (assigned by user).
+
 **[⬆ Back to Top](#table-of-contents)**
 
 3. ### Difference between “ == “ and “ === “ operators.
@@ -275,3 +285,5 @@ function square =(x)=> {
 function square = x => x * x;
 
 ```
+
+**[⬆ Back to Top](#table-of-contents)**
